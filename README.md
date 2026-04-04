@@ -1,5 +1,9 @@
 # Setup
 
+Node baseline: `24` via `.nvmrc` (minimum supported is `24`).
+
+Install note: this repo is pinned to the latest Vite 8 / ESLint 10 stack. `eslint-plugin-react-hooks` has not fully caught up to ESLint 10 peer metadata yet, so `.npmrc` enables `legacy-peer-deps` for installs.
+
 ```
 npm run dev -> http://localhost:5173/
 npm run test
